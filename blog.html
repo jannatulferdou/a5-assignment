@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+
+    <style>
+        .border-style{
+            border-bottom: 2px dashed gray;
+            
+            
+        }
+    </style>
+</head>
+<body>
+     <header class="ml-27 mt-7">
+        <nav class="card bg-base-100 shadow-sm w-290">
+            <div class="flex justify-around items-center pt-5 pb-5 pl-2 pr-2 relative ">
+                <div class="flex relative -ml-55 ">
+                    <div>
+                        <img src="assets/logo.png" alt="" class="w-11">
+                    </div>
+                    <div>
+                        <h2 class=""><span class="text-3xl">Dev</span><span class="text-3xl font-bold">Board</span></h2>
+                    </div>
+                </div>
+                <div class="flex relative -mr-60 gap-5">
+                    
+                    
+                  <button class="btn btn-primary">Back to Desk</button>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card bg-base-100 shadow-sm w-290 mt-15 ml-27 p-5">
+            <h3 class="border-style pb-5">Question-1: What are the different ways to select an element in the DOM?</h3>
+            <p class="pt-5">There are some ways to select an element in the DOM. For example: getElementsByTagName(), getElementsByClassName(), getElementById(), querySelector(), querySelectorAll() . </p>
+        </section>
+        <section class="card bg-base-100 shadow-sm w-290 mt-15 ml-27 p-5">
+            <h3 class="border-style pb-5">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h3>
+            <p class="pt-5">
+                "innerHTML" gives us the raw HTML, "innerText" only returns the visible text content of an element and "textContent" returns all text content within an element. 
+            </p>
+        </section>
+        <section class="card bg-base-100 shadow-sm w-290 mt-15 ml-27 p-5">
+            <h3 class="border-style pb-5">Question-3: What is event delegation in the DOM?</h3>
+            <p class="pt-5">Event delegation in the DOM is a JavaScript technique where we attach a single event listener to a parent element allow to handle the events. </p>
+        </section>
+        <section class="card bg-base-100 shadow-sm w-290 mt-15 ml-27 p-5">
+            <h3 class="border-style pb-5">Question-4: What is event bubbling in the DOM?</h3>
+            <p class="pt-5">Event bubbling is a propagation mechanism in the DOM where an event, such as a mouse click event, a keyboard event or touch event</p>
+        </section>
+        <section class="card bg-base-100 shadow-sm w-290 mt-15 ml-27 p-5 mb-10">
+            <h3 class="border-style pb-5">Question-5: How do you create, add, and remove elements using JavaScript?</h3>
+            <p class="pt-5"> To create a new element: <br>
+
+                const paragraph = document.createElement("p"); <br> add a new element: <br>const node = document.createTextNode("This is a new paragraph."); <br> paragraph.appendChild(node); <br> remove element: <br>function removeElement() { <br>
+                    div.parentNode.removeChild(div);<br>
+                    down.innerHTML = ``;
+                }
+             </p>
+        </section>
+    </main>
+</body>
+</html>

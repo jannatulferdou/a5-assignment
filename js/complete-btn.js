@@ -6,7 +6,7 @@ const activityLog = document.getElementById('activity-log');
 function completeTask(btn) {
   const card = btn.closest('.border'); 
   const heading = card.querySelector('h3').textContent; 
-  alert(heading + " completed successfully"); 
+  alert("board updated successfully"); 
 
   btn.disabled = true; 
   
@@ -32,4 +32,8 @@ for (let btn of completeBtns) {
   }
 
 
- 
+  const clearHistoryBtn = document.getElementById('clear-history-btn');
+
+  clearHistoryBtn.addEventListener('click', function(){
+    activityLog.innerHTML=``;
+  })
