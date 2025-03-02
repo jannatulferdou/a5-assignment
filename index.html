@@ -11,6 +11,142 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+    <header class="ml-27 mt-7">
+        <nav class="card bg-base-100 shadow-sm w-290">
+            <div class="flex justify-around items-center pt-5 pb-5 pl-2 pr-2 relative ">
+                <div class="flex relative -ml-55 ">
+                    <div>
+                        <img src="assets/logo.png" alt="" class="w-11">
+                    </div>
+                    <div>
+                        <h2 class=""><span class="text-3xl">Dev</span><span class="text-3xl font-bold">Board</span></h2>
+                    </div>
+                </div>
+                <div class="flex relative -mr-55 gap-5">
+                    <div class="">
+                        <button class="flex gap-1 border p-1 rounded-full pb-2 bg-slate-100 border-hidden"><img src="assets/checkbox.png" alt="" class="w-5 h-5 mt-2"><span class="mt-1 font-extrabold">23</span></button>
+                    </div>
+                    <div>
+                        <button><img src="assets/theme-btn.png" alt="" class="w-8 h-8"></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-10 ml-27 flex gap-5">
+        <section class="card bg-base-100 shadow-sm w-218 pb-7 mb-20">
+            <div class="flex mt-5 gap-4">
+               <div class="flex border bg-slate-100 rounded-lg justify-center items-center h-24 gap-4 pl-9 pr-9 ml-4 border-hidden mb-8">
+                <div>
+                    <img src="assets/checkbox.png" alt="" class="w-5 h-5">
+                </div>
+                <div>
+                    <p>Task Assigned </p>
+                    <h2 class="text-3xl font-bold">06</h2>
+                </div>
+               </div>
+               
+                <div class="flex border  bg-linear-to-r from-[#3752FD] to-[#9BA8F8] gap-4 rounded-lg justify-center items-center pl-10 pr-20 relative h-24 border-hidden">
+                <img src="assets/board.png" alt="" class="w-14 h-15">
+                <p class="text-white text-xl">Discover Something <br> New Today!</p>
+               </div>
+               <div class="flex border bg-slate-100 rounded-lg justify-center items-center gap-4 h-24 pl-9 pr-9 border-hidden">
+                <div><img src="assets/calender.png" alt="" class="w-7 h-7"></div>
+                <div><p class="text-xl">Wed, <br><strong>Jul 28 2025</strong></div>
+               </div>
+            </div>
+            <!-- card -->
+            <section class="w-208 ml-5">
+                <div class="grid grid-cols-3 gap-3 mt-5">
+                    <!-- card-1 -->
+                    <div class="border bg-slate-100 rounded-lg border-hidden pl-5 pr-5 pb-7">
+                        <button class="btn btn-soft mt-5">ShopEase</button>
+                        <h3 class="text-xl font-semibold mb-5 mt-5">Fix Mobile Button Issue </h3>
+                        <p class="text-gray-600 bg-white text-base p-5 rounded-lg mb-5">Debug using Chrome DevTools, check for overlapping elements...</p>
+                            <div class="flex">
+                                <p class="">
+                                    Deadline <br><strong>21 March 2025</strong>
+                                </p>
+                                <button class="btn btn-primary relative -right-5 mt-2">Completed</button>
+                            </div>
+                    </div>
+                    <!-- card-2 -->
+                    <div class="border bg-slate-100 rounded-lg border-hidden pl-5 pr-5 pb-7">
+                        <button class="btn btn-soft mt-5">CloudSync</button>
+                        <h3 class="text-xl font-semibold mb-5 mt-5">Add Dark Mode </h3>
+                        <p class="text-gray-600 bg-white text-base p-5 rounded-lg mb-5">Store the user's preference in localStorage, update CSS ...</p>
+                            <div class="flex">
+                                <p class="">
+                                    Deadline <br><strong>21 March 2025</strong>
+                                </p>
+                                <button class="btn btn-primary relative -right-5 mt-2">Completed</button>
+                            </div>
+                    </div>
+                    <!-- card-3 -->
+                    <div class="border bg-slate-100 rounded-lg border-hidden pl-5 pr-5 pb-7">
+                        <button class="btn btn-soft mt-5">SwiftPay</button>
+                        <h3 class="text-xl font-semibold mb-5 mt-5">Optimize  Home page </h3>
+                        <p class="text-gray-600 bg-white text-base p-5 rounded-lg mb-5">Debug using Chrome DevTools, check for overlapping elements...</p>
+                            <div class="flex">
+                                <p class="">
+                                    Deadline <br><strong>21 March 2025</strong>
+                                </p>
+                                <button class="btn btn-primary relative -right-5 mt-2">Completed</button>
+                            </div>
+                    </div>
+                    <!-- card-4 -->
+                    <div class="border bg-slate-100 rounded-lg border-hidden pl-5 pr-5 pb-7">
+                        <button class="btn btn-soft mt-5">Meta</button>
+                        <h3 class="text-xl font-semibold mb-5 mt-5">Add new emoji 🤲</h3>
+                        <p class="text-gray-600 bg-white text-base p-5 rounded-lg mb-5">Debug using Chrome DevTools, check for overlapping elements...</p>
+                            <div class="flex">
+                                <p class="">
+                                    Deadline <br><strong>21 March 2025</strong>
+                                </p>
+                                <button class="btn btn-primary relative -right-5 mt-2">Completed</button>
+                            </div>
+                    </div>
+                    <!-- card-5 -->
+                    <div class="border bg-slate-100 rounded-lg border-hidden pl-5 pr-5 pb-7">
+                        <button class="btn btn-soft mt-5">Google LLC</button>
+                        <h3 class="text-xl font-semibold mb-5 mt-5">Integrate OpenAI API  </h3>
+                        <p class="text-gray-600 bg-white text-base p-5 rounded-lg mb-5">Debug using Chrome DevTools, check for overlapping elements...</p>
+                            <div class="flex">
+                                <p class="">
+                                    Deadline <br><strong>21 March 2025</strong>
+                                </p>
+                                <button class="btn btn-primary relative -right-5 mt-2">Completed</button>
+                            </div>
+                    </div>
+                    <!-- card-6 -->
+                    <div class="border bg-slate-100 rounded-lg border-hidden pl-5 pr-5 pb-7">
+                        <button class="btn btn-soft mt-5">Glassdoar</button>
+                        <h3 class="text-xl font-semibold mb-5 mt-5">Improve Job searching </h3>
+                        <p class="text-gray-600 bg-white text-base p-5 rounded-lg mb-5">Debug using Chrome DevTools, check for overlapping elements...</p>
+                            <div class="flex">
+                                <p class="">
+                                    Deadline <br><strong>21 March 2025</strong>
+                                </p>
+                                <button class="btn btn-primary relative -right-5 mt-2">Completed</button>
+                            </div>
+                    </div>
+                   
+                </div>
+               
+            </section>
+
+        </section>
+        <section class="card bg-base-100 shadow-sm w-67 items-center pt-7 mb-20"> <div>
+            <div class="flex gap-3">
+                <img src="assets/activity.png" alt="" class="w-6 h-6 mb-5">
+                <h3 class=" text-xl font-semibold">Activity Log</h3>
+            </div>
+            <div><button class="btn btn-primary ml-5">Clear History</button></div>
+        </div></section>
+    </main>
+
+   
+      
 </body>
 </html>
